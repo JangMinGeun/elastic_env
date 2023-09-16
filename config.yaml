@@ -1,0 +1,33 @@
+num_train_images : 200000
+num_test_images : 400
+num_objects : 5
+episode_steps : 20
+make_gif : False
+discrete_action : False
+
+data_type :
+  - OP3
+  - tfds
+
+
+NAME : "rlb_1_22_s2n"
+
+numofobjs : 1
+colors : 
+  - [0, 255, 0, 255]    # LIME
+  - [0, 0, 255, 255]    # BLUE
+  - [0, 255, 255, 255]  # CYAN
+  - [0, 127, 127, 255]  # TEAL
+  - [0, 0, 127, 255]    # NAVY
+  - [0, 127, 0, 255]    # GREEN
+  - [255, 0, 0, 255]    # RED
+
+sizes :
+  - 2
+  - 2
+
+objs :
+  - "circle"
+  - "square"
+  - "triangle"
+  # - "hexagon"
